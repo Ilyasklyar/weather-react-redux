@@ -1,0 +1,45 @@
+.input{
+    line-height: 32px;
+    border-radius: 10px;
+    border: 2px solid #777;
+    width: 300px;
+    padding:0 10px;
+    outline:none;
+}
+.btn{
+    line-height: 32px;
+    border-radius: 10px;
+    border: 2px solid #777;
+    padding:0 10px;
+    outline:none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.form{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+.center {
+    display:flex;
+    justify-content:space-around;
+    position: relative;
+    max-width: 400px;
+    margin: 50px auto;
+}
+.city {
+    font-size: 32px;
+    color: rgb(3, 87, 165);
+}
+.center span {
+    font-size: 22px;
+}
+
+.displaynone{
+    display: none;
+}
+.display{
+    display: block;
+}
